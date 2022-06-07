@@ -1,1 +1,1 @@
-# rsschool-cv
+https://polyand.github.io/rsschool-cv/cv
