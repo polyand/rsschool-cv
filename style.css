@@ -1,0 +1,57 @@
+@font-face {
+    font-family: NotoSans;
+     src: url("./assets/fonts/NotoSans.ttf");
+   }
+
+   * {
+    box-sizing: border-box;
+  }
+
+  .header {
+    border: 1px solid red;       
+  }
+
+  .main {
+    border: 1px solid red;
+  }
+
+  .footer {
+    border: 1px solid red;
+  }
+
+  .body {
+    font-family: 'NotoSans';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0; 
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+  }
+
+  .nav-item a {
+    color: #2d0b2f;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .nav-item a:hover {
+    color: #0ae627;
+  }
