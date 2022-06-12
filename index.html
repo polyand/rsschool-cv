@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <title>cv</title>
 <link rel="stylesheet" href="./style.css">
@@ -17,6 +17,7 @@
                     <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a></li>
                     <li class="nav-item"> <a href="#skils" class="nav-link">Skils</a></li>
                     <li class="nav-item"> <a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"> <a href="#code" class="nav-link">Code</a></li>
                     <li class="nav-item"> <a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"> <a href="#language" class="nav-link">Language</a></li>
                 </ul>
@@ -24,39 +25,80 @@
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title"></h1>
-                <p>Polykov Andriy</p>
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title"></h2>
-                <p>Contacts</p>
-            </section>
-            <section class="section" id="summary">
-                <h2 class="section-title"></h2>
-                <p>Summary</p>
-            </section>
-            <section class="section" id="skills">
-                <h2 class="section-title"></h2>
-                <p>Skills</p>
-            </section>
-            <section class="section" id="projects">
-                <h2 class="section-title"></h2>
-                <p>Projects</p>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title"></h2>
-                <p>Education</p>
-            </section>
-            <section class="section" id="language">
-                <h2 class="section-title"></h2>
-                <p>Language</p>
-            </section>
-        </div>    </main>
+        <section class="container profile">
+            <div class="article">
+            <img class="photo" src="./assets/img/profile_picture.png" alt="profile picture" width="300" height="300">
+            </div>
+            <div class="page-title">
+            <h1 class="font-title">Andriy Polyakov</h1>
+            <p>Junior front-end developer</p>
+           </div>
+        </section>
+        <section class="container main-container">
+            <article class="article" id="contacts">
+                <h2 class="article-title">Contacts</h2>
+                <br>
+                <ul>
+                    <li class="list">Address: Kyiv</li>
+                    <li class="list">Email: polyandit@gmail.com</li>
+                    <li class="list">GitHub: polyand</li>
+                    <li class="list">Discord: Andriy#2707</li>
+                </ul>
+            </article>
+            <article class="article" id="summary">
+                <h2 class="article-title">Summary</h2>
+                <br>
+                <p class="list">I have experience in designing electrical enegineering for industrial and civil facilities. My goal is to gain knowledge in the field of front-end development.</p>
+            </article>
+            <article class="article" id="skills">
+                <h2 class="article-title">Skills</h2>
+                <br>
+                <ul>
+                    <li class="list">HTML</li>
+                    <li class="list">CSS</li>
+                    <li class="list">JavaScript</li>
+                    <li class="list">Figma</li>
+                    <li class="list">Git/GitHub</li>
+                </ul>
+            </article>
+            <article class="article" id="projects">
+                <h2 class="article-title">Projects</h2>
+                <br>
+                <ul>
+                    <li class="list">Currently only one project <a href="https://polyand.github.io/rsschool-cv/cv" class="linkCV">CV</a></li>
+                    <li class="list">There will be more...</li>
+                </ul>
+            </article>
+            <article class="article" id="code">
+                <h2 class="article-title">Code</h2>
+                <br>
+                <p class="list">Example</p>
+            </article>
+            <article class="article" id="education">
+                <h2 class="article-title">Education</h2>
+                <br>
+                <p class="list">National Technical University</p>
+            </article>
+            <article class="article" id="language">
+                <h2 class="article-title">Language</h2>
+                <br>
+                <ul>
+                    <li class="list">Ukrainian and Russian - Native</li>
+                    <li class="list">English - Pre-Intermediate, continue improving</li>
+                </ul>            </article>
+        </section>    
+    </main>
     <footer class="footer">
-        <div class="container">
-            <p> footer</p>
-        </div>    </footer>
+        <a href="https://rs.school/js/" class="footer-1" target="_blank">
+            <img src="./assets/img/rs_school_js.svg" alt="RS School" height="40px">
+        </a>
+
+        <p class="footer-2">© 2022 by Andriy Polyakov</p>
+
+        <a href="https://github.com/polyand" class="footer-3" target="_blank">
+            <img src="./assets/img/github.svg" class="footer-3" alt="GitHub" height="30px"> Me on GitHub
+        </a> 
+
+    </footer>
 </body>
 </html> 
