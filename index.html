@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<title>cv</title>
-<link rel="stylesheet" href="./style.css">
+
 <body class="body">
-    <header class = "header">
+    <header class="header">
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"> <a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"> <a href="#skils" class="nav-link">Skils</a></li>
+                    <li class="nav-item"> <a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"> <a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"> <a href="#code" class="nav-link">Code</a></li>
                     <li class="nav-item"> <a href="#education" class="nav-link">Education</a></li>
@@ -25,54 +26,69 @@
         </div>
     </header>
     <main class="main">
-        <section class="container profile">
+        <div class="container profile">
             <div class="article">
-            <img class="photo" src="./assets/img/profile_picture.png" alt="profile picture" width="300" height="300">
+                <img class="photo" src="./assets/img/profile_picture.png" alt="profile picture" width="300"
+                    height="300">
             </div>
             <div class="page-title">
-            <h1 class="font-title">Andriy Polyakov</h1>
-            <p>Junior front-end developer</p>
-           </div>
-        </section>
-        <section class="container main-container">
+                <h1>
+                    <div class="title">
+                        <p class="font-title1">Andriy</p>
+                        <p class="font-title1">Polyakov</p>
+                    </div>
+                </h1>
+                <div>
+                    <h3 class="font-title2">Junior front-end developer</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container main-container">
             <article class="article" id="contacts">
                 <h2 class="article-title">Contacts</h2>
                 <br>
                 <ul>
-                    <li class="list">Address: Kyiv</li>
-                    <li class="list">Email: polyandit@gmail.com</li>
-                    <li class="list">GitHub: polyand</li>
-                    <li class="list">Discord: Andriy#2707</li>
+                    <li class="list-li">Address: Kyiv</li>
+                    <li class="list-li">Email: polyandit@gmail.com</li>
+                    <li class="list-li">GitHub: polyand</li>
+                    <li class="list-li">Discord: Andriy#2707</li>
                 </ul>
             </article>
             <article class="article" id="summary">
                 <h2 class="article-title">Summary</h2>
                 <br>
-                <p class="list">I have experience in designing electrical enegineering for industrial and civil facilities. My goal is to gain knowledge in the field of front-end development.</p>
+                <p class="list">I have experience in designing electrical enegineering for industrial and civil
+                    facilities. My goal is to gain knowledge in the field of front-end development.</p>
             </article>
             <article class="article" id="skills">
                 <h2 class="article-title">Skills</h2>
                 <br>
                 <ul>
-                    <li class="list">HTML</li>
-                    <li class="list">CSS</li>
-                    <li class="list">JavaScript</li>
-                    <li class="list">Figma</li>
-                    <li class="list">Git/GitHub</li>
+                    <li class="list-li">HTML</li>
+                    <li class="list-li">CSS</li>
+                    <li class="list-li">JavaScript</li>
+                    <li class="list-li">Figma</li>
+                    <li class="list-li">Git/GitHub</li>
                 </ul>
             </article>
             <article class="article" id="projects">
                 <h2 class="article-title">Projects</h2>
                 <br>
                 <ul>
-                    <li class="list">Currently only one project <a href="https://polyand.github.io/rsschool-cv/cv" class="linkCV">CV</a></li>
-                    <li class="list">There will be more...</li>
+                    <li class="list-li">Currently only one project <a href="https://polyand.github.io/rsschool-cv/"
+                            class="linkCV">CV</a></li>
+                    <li class="list-li">There will be more...</li>
                 </ul>
             </article>
             <article class="article" id="code">
                 <h2 class="article-title">Code</h2>
                 <br>
-                <p class="list">Example</p>
+                <p class="list">
+                    <code> function multiply (a, b) { <br> 
+                        return a * b <br> 
+                     }
+                    </code>
+                </p>
             </article>
             <article class="article" id="education">
                 <h2 class="article-title">Education</h2>
@@ -83,22 +99,24 @@
                 <h2 class="article-title">Language</h2>
                 <br>
                 <ul>
-                    <li class="list">Ukrainian and Russian - Native</li>
-                    <li class="list">English - Pre-Intermediate, continue improving</li>
-                </ul>            </article>
-        </section>    
+                    <li class="list-li">Ukrainian and Russian - Native</li>
+                    <li class="list-li">English - Pre-Intermediate, continue improving</li>
+                </ul>
+            </article>
+        </div>
     </main>
     <footer class="footer">
         <a href="https://rs.school/js/" class="footer-1" target="_blank">
-            <img src="./assets/img/rs_school_js.svg" alt="RS School" height="40px">
+            <img src="./assets/img/rs_school_js.svg" alt="RS School" height="40">
         </a>
 
         <p class="footer-2">© 2022 by Andriy Polyakov</p>
 
         <a href="https://github.com/polyand" class="footer-3" target="_blank">
-            <img src="./assets/img/github.svg" class="footer-3" alt="GitHub" height="30px"> Me on GitHub
-        </a> 
+            <img src="./assets/img/github.svg" class="footer-3" alt="GitHub" height="30"> Me on GitHub
+        </a>
 
     </footer>
 </body>
-</html> 
+
+</html>
